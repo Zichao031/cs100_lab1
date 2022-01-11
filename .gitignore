@@ -1,6 +1,9 @@
 area_calculator
+<<<<<<< HEAD
 CMakeFiles/
 cmake_install.cmake
 Makefile
 
 c-echo
+=======
+>>>>>>> b59516acf576372101bda676bd1968f2653ecc03
