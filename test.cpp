@@ -17,6 +17,11 @@ TEST(EchoTest, HaveANiceDay) {
         EXPECT_EQ("have a nice day", echo(5,test_val));
 }
 
+TEST(EchoTest, GoodJob) {
+        char* test_val[3]; test_val[0] = "./c-echo"; test_val[1] = "good"; test_val[2] = "job";
+        EXPECT_EQ("good job", echo(3,test_val));
+}
+
 TEST(Area, CanComputeOneArea) {
 	Circle c1 = Circle(9);
 	double res = c1.area();
